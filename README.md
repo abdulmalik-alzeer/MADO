@@ -1,6 +1,16 @@
 # MADO — Multi Agent Documentation Orchestrator
 
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+![Status](https://img.shields.io/badge/status-works%20on%20my%20machine-yellow.svg)
+![Agents](https://img.shields.io/badge/agents-confused%20without%20this-blue.svg)
+![Coffee](https://img.shields.io/badge/powered%20by-coffee%20%E2%98%95-brown.svg)
+
 AI coding agents lose context, forget instructions, and produce inconsistent code on complex projects. MADO is a structured workflow that replaces conversation memory with persistent documentation — so your agent always knows where it is, what to do next, and what's already been done.
+
+## Philosophy
+
+Your AI agent is brilliant but has the memory of a goldfish. MADO gives it a notebook.
 
 ## The Problem
 
@@ -83,7 +93,7 @@ For small, single-session tasks (a utility function, a bug fix, a simple script)
 
 ## Templates
 
-All templates are in the [`templates/`](templates/) directory, ready to copy into your project:
+All templates are in the [`templates/`](templates) directory, ready to copy into your project:
 
 - [`AGENT.md`](templates/AGENT.md) — Agent session instructions
 - [`ORCHESTRATION.md`](templates/ORCHESTRATION.md) — Project orchestration document
@@ -103,6 +113,12 @@ What this means in practice:
 
 This is an honest sharing of a workflow that produced strong results in a specific context. It is not a universal guarantee. If you try MADO in a different environment, your experience — good or bad — would be a genuinely valuable contribution. See [Contributing](#contributing).
 
+---
+
+> **Fun fact:** The average AI coding session loses useful context after ~45 minutes of conversation.
+> MADO was born from the frustration of explaining the same project architecture to Claude for the 11th time.
+> The agent didn't forget. I just stopped relying on it to remember.
+
 ## Contributing
 
 MADO is early-stage and community validation is the most important thing that can happen next. The most valuable contributions right now:
@@ -113,6 +129,20 @@ MADO is early-stage and community validation is the most important thing that ca
 
 **Step decomposition examples.** If you decomposed a project using MADO and are willing to share the step structure (even without proprietary details), it would help others understand how to apply the methodology.
 
+## Support
+
+MADO is free and always will be. But if it saved you hours of re-explaining context to a forgetful AI agent, consider:
+
+☕ [Buy me a coffee](https://buymeacoffee.com/alzeer) — fuels late-night template writing sessions
+
+⭐ Star this repo — it's free and mass-produces serotonin
+
+🐛 Open an issue — even bug reports are a form of love
+
+📢 Tell a friend — word of mouth > marketing budget I don't have
+
 ## License
 
-MIT — do whatever you want with it. See [LICENSE](LICENSE).
+MIT — do whatever you want with it. Seriously. Fork it, rename it, sell it, tattoo it on your arm. I don't care. Just build cool stuff. See [LICENSE](LICENSE).
+
+If it saved you from losing your mind during a 47-step agent project, a ⭐ would make my day.
