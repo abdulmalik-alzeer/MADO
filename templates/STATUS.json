@@ -1,0 +1,33 @@
+{
+  "project": {
+    "name": "PROJECT_NAME",
+    "started_at": "YYYY-MM-DD HH:MM:SS",
+    "last_updated": "YYYY-MM-DD HH:MM:SS"
+  },
+  "current_step": {
+    "phase": 1,
+    "step": 1,
+    "file": ".mado/steps/step-01-01.md",
+    "status": "pending"
+  },
+  "phases": [
+    {
+      "number": 1,
+      "name": "PHASE_NAME",
+      "status": "pending",
+      "steps": [
+        {
+          "number": 1,
+          "name": "STEP_DESCRIPTION",
+          "file": ".mado/steps/step-01-01.md",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_steps": 0,
+    "completed_steps": 0,
+    "completion_percentage": 0.0
+  }
+}
